@@ -7,7 +7,7 @@ import factory from '../ethereum/factory';
 import web3 from "../ethereum/web3";
 import { Router } from "../routes";
 
-const Index = () =>
+const New = () =>
 {
    
    const  onSubmit = async ( event ) =>
@@ -45,4 +45,4 @@ const Index = () =>
 }
 
 
-export default Index;
+export default New;

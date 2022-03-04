@@ -25,7 +25,7 @@ const Index = () =>
             {
                 todoLists.map( (todoList) =>
                 {
-                    return ( <div> <a>{ todoList }</a> <br />  </div>);
+                    return ( <div>  { todoList }  <Link href={ { pathname: 'detail', query: { address: `${todoList}` } } } >goto </Link>  </div> );
                 }  )
 
             }
